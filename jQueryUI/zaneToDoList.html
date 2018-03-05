@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		
+		<!-- Noramalize.css -->
+		<link rel = "stylesheet" type = "text/css" href = "css/normalize.css">
+		
+		<!--Custom Styles -->
+		<link rel = "stylesheet" type = "text/css" href = "css/toDoStyles.css">
+		
+		<!-- jQuery UI CSS -->
+        <link href="js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+		
+	</head>
+
+	<body>
+        
+        <div class="container" id="toDoListWrapper">
+            <h1>This Week's To Do List</h1>
+            
+            <div id="toDoList">
+                <ul>
+                    <li class="listTitle">Monday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Tuesday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>    
+                <ul>   
+                    <li class="listTitle">Wednesday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>    
+                <ul>  
+                    <li class="listTitle">Thursday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>    
+                <ul>     
+                    <li class="listTitle">Friday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>
+                <ul>   
+                    <li class="listTitle">Saturday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>
+                </ul>
+                <ul>   
+                    <li class="listTitle">Sunday</li>
+                    <li class="addItem"><input type="text" placeholder ="add new item"></li>  
+                </ul>
+            </div><!--#toDoList-->
+            
+        </div><!--.container-->
+        
+        <div id="trash">drop here to delete an item</div>
+        
+        
+<!--------------------------Documents------------------------------>
+		<!-- Load the CDN first -->
+        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <!-- If CDN fails to load, write in local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>');</script>
+        
+        <!-- jQuery UI -->
+        <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        
+        <!--js and jQuery Script-->
+        <script src="js/toDoScript.js"></script>
+	</body>
+</html>
