@@ -1,0 +1,10 @@
+body {
+    padding-top: 60px;
+}
+
+#scrollerBox {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    border: solid 1px #333;
+}
