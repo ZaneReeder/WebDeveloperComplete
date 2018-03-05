@@ -1,0 +1,141 @@
+Zane Reeder
+12/22/2017
+
+Section 10&11 - CSS
+
+Cascading Style Sheets
+	Presentation Focused
+	Modify HTML tags, so as to deliver branded experience in graphical browsers.
+	Graceful Degradation
+	
+Style Rule
+	allows author specify formatting and presentation
+	ex:
+		h1{
+			font-size: 24px;
+			font-family: Helvetica;
+			color: blue;
+		}
+
+
+Selectors
+	targets a specific HTML element
+
+Properties
+	within the curlys
+	font-size
+	font-family
+	...
+	
+Values
+	assigned to the property
+	24px
+	helvetica
+	blue
+	...
+
+
+Inheritance of Styles
+
+	<h1>Hey, <em>look</em> at that monkey</h1>
+
+	<h1> -> parent of <em>
+	Thus any modifications to h1 will affect em.
+	Called inheritance
+	Some exceptions like borders.
+
+
+Measurements and Box Model
+
+	Margin Padding Font size width height....
+	
+	Unit	description
+	
+	px		pixels
+	
+	%		percent
+	
+	em		relative to font size of parent. I
+			If parent has fontsize of 14px, 1em = 14px
+	
+	rem		relative to font size of root.
+			if the html element is 18px, then 1rem = 18px
+			
+	
+	Box Model
+	All elements in HTML appear in a box in the layout of page.
+	All boxes have a margin, padding, and borders.
+	Block level elements have a width property where as inline-level
+	elements do not.
+	
+	Margins
+
+	Margins live outside the box. Top & Bottom margins overlap on adjacent elements.
+	If you have an h3 followed by an h4, and you defined the h3 to have a margin
+	bottom of 30px, and the h4 to have a margin top of 10px.The two margins overlap
+	and the larger of the two margins is used. Thus the 30px margin is used.
+	
+	Inline elements have left and right margins.
+	
+	margin-top:	x	
+	margin-bottom: x	]- 	margin: x
+	margin-left: x
+	margin-right: x
+	
+	or
+	
+	margin: topX rightX bottomX leftX;
+	
+	margin: top&bottomX left&rightX;
+	
+	margin: topX left&rightX bottomX;
+	
+	
+	This applies to padding and borders as well.
+	
+	border-style
+	border-width	]-	border:style width color
+	border-color
+	
+	Specific Modifications
+	border: solid 4px #333
+	border-bottom-color: #fc3
+	
+	
+	
+CSS Specificity
+	
+	In order to reduce problems with large CSS files we use the Specificity Rule.
+	
+	The Specificity Rule
+		More Specific = Higher Precedence 
+		
+
+Section 11
+
+w3schools.com <!-- Bible for Web Development -->
+
+HTML Colors
+paletton.com
+
+
+Text Styling and Formatting
+
+	
+
+Orbiting Project
+
+	To keep animations multi browser friendly,
+	use the following prefixes as such:
+	
+	@-webkit-keyframes animation {
+	@-moz-
+	@-o-
+	
+	also use the above prefixes for CSS3 box and border adjustments:
+	-webkit-border-radius: 100%
+	-moz-
+	-o-
+	
+	
+	

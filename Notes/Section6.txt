@@ -1,0 +1,43 @@
+Zane Reeder
+12/19/2017
+Udemy Website Development Notes
+Section 6 - HTML
+
+
+Files and Folders:
+
+File and Folder Structure
+	one word folder names
+	root folder is the common name for the top level
+	index.html filename is set in stone home page
+	images
+	
+Example
+www.website.com
+	MyWebsite
+		index.html
+		images
+			logo.jpg
+		downloads
+			things.html <- www.website.com/downloads/things.html
+		biographies
+			brad.html
+			
+File naming conventions
+	Not Allowed:
+		TAB SPACE " < > [ ] { } \ ^ ` | ~
+	Special Characters:
+		@ = & % # / ? : ;
+	URLs are case sensitive
+	
+	lower-case alphanumeric characters and underscores
+	mywebsite2017
+	or
+	my_website_2017
+		
+_______________________________________________________________________
+
+Elements
+	in-line
+	block
+	in-line-block

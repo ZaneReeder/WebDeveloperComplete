@@ -1,0 +1,139 @@
+Zane Reeder
+11/28/2017
+Web Development Course
+
+Jargon / Terminology
+
+Mood Board:
+	collage conveying mood or direction
+	presenting ideas or direction to go with project.
+	
+Wireframe:
+	sketch or sketches serves as blueprint for website layout.
+	effective because they are quick to produce, focusing on
+		functionality layout and content organization.
+
+Rough:
+	first draft of layout after sketching.
+	needs work before design is perfect.
+	
+Comp:
+	second draft of layout
+
+Mockup:
+	official final draft of web design.
+
+__________________________________
+
+Four Phases of Web Design Project
+
+1) Discovery Phase
+	Initial phone calls, meetings, consultations.
+	Research, planning, scheduling.
+	Develop site structure / sitemap.
+
+2) Creative Phase
+	User experience design.
+	Wireframing.
+	Web Design Mockups.
+
+3) Development Phase
+	Convert designs into HTML and CSS templates.
+	Additional Web Development (WordPress).
+	Browser Testing.
+
+4) Launch Phase
+	Review/Q&A.
+	Local Website to Live Server.
+	Client Training.
+	Final Payment.
+	
+
+__________________________________
+
+User Experience Design (UX Design)
+
+What:
+	Visual Design
+	Information Arch.
+	Usability
+	Research
+	Content Strategy
+	Interface Design
+	
+Good Ux:
+	Useful and fulfills user's goal
+	easy to use
+	pleasant and enjoyable
+
+Importance:
+	sovles a problem
+	entertains or engages.
+	educates or informs.
+	experience the above with ease, no stress, no anger.
+
+Strategies:
+	flow charts
+	site maps
+	wireframes
+	screenshots with annotations
+	
+Tools:
+	OmniGrafflePro
+	Visio
+	balsamiq.com
+	Pen and Paper, Gridbooks
+
+UX Books to Read:
+	The Design of Everyday Things by Don Norman
+	Dont Make Me Think by Steve Krug
+
+________________________________________
+
+Anatomy of Website Design
+
+Conventions
+
+Common Elements:
+	Header and Nav
+	Call to action
+	Primary Content
+	Secondary/Tertiary Content
+	Sidebar
+	Footer
+	
+Header and Navigation:
+	Horiz along top or could be vertical along one side
+	Contains Brand/Logo
+	Nav items are the most important/commonly used links
+	Global across all pages.
+	
+Call to Actions:
+	Most Important
+	What to do next?
+	Clear Straightfoward and to the point with a clear benefit to the user.
+	ONE call
+	
+Primary Content:
+	Highlights the main article/story/message
+	Most Obvious
+	Centered within layout, consuming 3/4 of the page width
+	
+Secondary Content:
+	Links to other pages.
+	Lower on page or within sidebar/footer
+	
+SideBar:
+	Should not attract attention away from the primary content
+	Should be used to enhance UX
+	Contains Secondary/Tertiary content.
+
+Footer:
+	Very bottom of page
+	Tertiary Content not critical
+	Links
+
+____________________________________________
+
+960 Grid System
+
